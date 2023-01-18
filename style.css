@@ -1,20 +1,22 @@
 header{
     background-color: silver;
     color: darkslategray; 
+    text-align:center;
 }
 
-
-body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+ul li{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:inline;
+    background-color:lightgray
 }
 
 .hero{
     min-height: 300px;
-    background-color: pink;
-    margin: 16px;
-}
+    margin:16px;
+    background-image: url("products-hero.webp");
+ }
 
 .product-1{
     min-height: 300px;
@@ -38,4 +40,11 @@ body{
     min-height: 300px;
     background-color: green;
     margin: 16px;
+}
+
+footer{
+    text-align: center;
+    background-color:silver;
+    color:darkslategrey;
+    padding: 5px;
 }
