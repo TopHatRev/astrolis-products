@@ -4,47 +4,84 @@ header{
     text-align:center;
 }
 
-ul li{
-    list-style-type: none;
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+body{
     margin:0;
     padding:0;
+}
+
+img{
+    width:100%;
+    display: block;
+}
+
+ul li{
+    list-style-type: none;
+    margin:16px;
+    padding:0;
     display:inline;
-    background-color:lightgray
+    background-color:lightgray;
+    text-decoration: none;
+}
+
+.hero-container{
+    overflow:hidden;
+    width: 60%;
+    margin: 16px auto;
 }
 
 .hero{
     min-height: 300px;
-    margin:16px;
+    /* margin:16px auto; */
     background-image: url("products-hero.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* width: 60%; */
  }
+
 
 .product-1{
     min-height: 300px;
-    background-color: slateblue;
-    margin: 16px;
+    margin: 16px auto;
+    background-image: url("astrolis-product1.webp");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 60%;
 }
 
 .product-2{
     min-height: 300px;
-    background-color: maroon;
-    margin: 16px;
+    margin: 16px auto;
+    background-image: url("astrolis-product2.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 60%;
 }
 
 .product-3{
     min-height: 300px;
     background-color: orangered;
-    margin: 16px;
+    margin: 16px auto;
+    width: 60%;
 }
 
 .product-4{
     min-height: 300px;
     background-color: green;
-    margin: 16px;
+    margin: 16px auto;
+    width: 60%;
 }
 
 footer{
     text-align: center;
     background-color:silver;
     color:darkslategrey;
-    padding: 5px;
+    padding: 50px;
 }
