@@ -1,0 +1,41 @@
+header{
+    background-color: silver;
+    color: darkslategray; 
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    min-height: 300px;
+    background-color: pink;
+    margin: 16px;
+}
+
+.product-1{
+    min-height: 300px;
+    background-color: slateblue;
+    margin: 16px;
+}
+
+.product-2{
+    min-height: 300px;
+    background-color: maroon;
+    margin: 16px;
+}
+
+.product-3{
+    min-height: 300px;
+    background-color: orangered;
+    margin: 16px;
+}
+
+.product-4{
+    min-height: 300px;
+    background-color: green;
+    margin: 16px;
+}
