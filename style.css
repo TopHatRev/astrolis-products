@@ -21,64 +21,28 @@ img{
 
 ul li{
     list-style-type: none;
-    margin:16px;
-    padding:0;
+    margin:30px auto;
+    padding:12px;
     display:inline;
     background-color:lightgray;
     text-decoration: none;
-}
-
-.hero-container{
-    overflow:hidden;
-    width: 60%;
-    margin: 16px auto;
+    color:whitesmoke;
 }
 
 .hero{
-    min-height: 300px;
-    /* margin:16px auto; */
-    background-image: url("products-hero.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    /* width: 60%; */
- }
-
-
-.product-1{
-    min-height: 300px;
-    margin: 16px auto;
-    background-image: url("astrolis-product1.webp");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
     width: 60%;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
 }
 
-.product-2{
-    min-height: 300px;
-    margin: 16px auto;
-    background-image: url("astrolis-product2.jpeg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
+.products{
     width: 60%;
+    display:block;
+    margin: 10px auto;
+    cursor: pointer;
 }
-
-.product-3{
-    min-height: 300px;
-    background-color: orangered;
-    margin: 16px auto;
-    width: 60%;
-}
-
-.product-4{
-    min-height: 300px;
-    background-color: green;
-    margin: 16px auto;
-    width: 60%;
-}
-
+  
 footer{
     text-align: center;
     background-color:silver;
