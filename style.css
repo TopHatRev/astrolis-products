@@ -1,68 +1,107 @@
-header{
-    background-color: #888f90;
-    color: #435058;
+header {
+  background-color: #888f90;
+  color: #435058;
 }
 
-header h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    padding: 30px;
-    text-align:center;
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
 }
 
-nav{
-    padding:12px;
-    background-color:#7a8182;
+nav {
+  padding: 12px;
+  background-color: #7a8182;
 }
 
-body{
-    margin:0;
-    padding:0;
-    background-color: #CDCDCD;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cdcdcd;
 }
 
-img{
-    width:100%;
-    display: block;
+img {
+  width: 100%;
+  display: block;
 }
 
-ul{
-    padding:0;
-    text-align:center;
-    margin:0;
+ul {
+  padding: 0;
+  text-align: center;
+  margin: 0;
 }
 
-ul li{
-    list-style-type: none;
-    margin:2px auto;
-    padding:0 12px;
-    border: 2px;
-    border-color: darkslategrey;
-    display:inline;
+ul li {
+  list-style-type: none;
+  margin: 2px auto;
+  padding: 0 12px;
+  border: 2px;
+  border-color: darkslategrey;
+  display: inline;
 }
 
-nav a{
-    text-decoration:none;
-    color:whitesmoke;
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
-.hero{
-    width: 60%;
-    display: block;
-    margin: 10px auto;
-    cursor: pointer;
+.hero {
+  width: 60%;
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 5px;
 }
 
-.products{
-    width: 60%;
-    display:block;
-    margin: 10px auto;
-    cursor: pointer;
+.heroHeader {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #010814;
+  font-size: 22px;
 }
-  
-footer{
-    text-align: center;
-    background-color:#848C8E;
-    color:#435058;
-    padding: 50px;
+
+.heroText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4px 4px;
+  display: block;
+  word-wrap: break-word;
+  color: #010814;
+  background-color: #c5c3c3;
+  word-spacing: 5px;
+}
+
+.hero-button {
+  display: flex;
+}
+
+.hero-button1 {
+  flex: 1;
+  padding: 0.5em 1em;
+  background-color: #bab7b7;
+  color: #010814;
+  border: none;
+  margin: 0 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.hero-button1:hover {
+  background-color: #838383;
+}
+
+.products {
+  width: 60%;
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #848c8e;
+  color: #435058;
+  padding: 50px;
 }
