@@ -49,14 +49,3 @@ function guessANumber(){
      }
     }
 }
-
-function getRating() {
-    let rating = prompt("Please rate my website 1-5");
-    let output = "Your rating: ";
-  
-    for (let i = 0; i < rating; i++) {
-      output = output + "<img src= 'ratingLogo.png' class='ratingLogo'"
-    }
-    document.write(output);
-  }
-  
