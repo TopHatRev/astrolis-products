@@ -93,10 +93,57 @@ nav a {
 }
 
 .products {
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  
+  .product1Header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #010814;
+    font-size: 22px;
+  }
+  
+  .product1Text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 4px 4px;
+    display: block;
+    word-wrap: break-word;
+    color: #010814;
+    background-color: #c5c3c3;
+    word-spacing: 5px;
+  }
+  
+  /* .product-button {
+    display: flex;
+  } */
+  
+  .product1-button {
+    flex: 1;
+    padding: 0.5em 1em;
+    background-color: #bab7b7;
+    color: #010814;
+    border: none;
+    margin: 0 4px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .product1-button:hover {
+    background-color: #838383;
+  }
+
+.products {
   width: 60%;
   display: block;
   margin: 10px auto;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 footer {
