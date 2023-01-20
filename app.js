@@ -34,3 +34,29 @@ if (confirm("Accept Cookies?") == true) {
 
 console.log(text);
 
+
+function guessANumber(){
+    let answer;
+
+    //while the answer is incorrect, keep asking.
+    while(answer != 3){
+     prompt("Guess a number between 0-10");
+
+     if(answer != 3) {
+        alert("Try again.");
+     } else {
+        alert("Good job.");
+     }
+    }
+}
+
+function getRating() {
+    let rating = prompt("Please rate my website 1-5");
+    let output = "Your rating: ";
+  
+    for (let i = 0; i < rating; i++) {
+      output = output + "<img src= 'ratingLogo.png' class='ratingLogo'"
+    }
+    document.write(output);
+  }
+  
